@@ -19,7 +19,7 @@ export default function Home() {
           <li>Save and see your changes instantly.</li>
         </ol>
 
-        <Button>Open alert</Button>
+        <Button variant="secondary">Open alert</Button>
       </main>
     </div>
   );

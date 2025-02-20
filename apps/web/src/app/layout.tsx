@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
-import { Theme } from "@radix-ui/themes";
 import "@repo/ui/globals.css";
+
+import { Theme } from "@radix-ui/themes";
 import { ThemeProvider } from "next-themes";
 
 const geistSans = localFont({
